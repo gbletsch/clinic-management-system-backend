@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "Backend to my clinic management system made with node and express.",
+  "main": "index.js",
+  "author": "gbletsch@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
+  },
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
